@@ -14,12 +14,17 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+* 姓名：于鹏
+* 时间：2019年8月3日08:27:55
+* 功能：解析
+* */
 public class Main2Activity extends AppCompatActivity {
     private String str="http://172.17.8.100/small/commodity/v1/findCommodityByKeyword?page=1&count=10&keyword=%E7%94%B5%E8%84%91";
     private ListView listView;
     private List<Bean> list = new ArrayList<>();
     private HttpUtil httpUtil = HttpUtil.getHttpUtil();
+
 
 
 
